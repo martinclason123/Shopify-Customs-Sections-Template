@@ -1,0 +1,82 @@
+.slick__carousel--header {
+  margin-left: 1em;
+}
+.slick-dots li {
+  color: black !important;
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999;
+  width: 100px;
+  height: 100px;
+}
+.slick__carousel--exterior {
+  padding: 6vw;
+}
+.slick__carousel--quotation {
+  width: 8vw;
+}
+.slick__carousel--interior {
+  padding: 6vw;
+  -webkit-box-shadow: 0px 10px 13px -7px #787272,
+    0px -1px 23px -3px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 10px 13px -7px #888686,
+    0px -1px 23px -3px rgba(125, 123, 123, 0.52);
+}
+.slick__carousel--quote {
+  font-size: 4vw;
+  font-weight: bold;
+}
+.slick__carousel--portrait {
+  margin: 0 auto;
+
+  width: 25vw;
+  padding-top: 3vw;
+}
+.slick__carousel--name {
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  .slick__carousel--exterior {
+    padding: 2vw;
+  }
+  .slick__carousel--interior {
+    padding: 3vw;
+  }
+  .slick__carousel--quotation {
+    width: 4vw;
+  }
+  .slick__carousel--quote {
+    font-size: 2vw;
+  }
+  .slick__carousel--portrait {
+    width: 15vw;
+    padding-top: 1vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .slick__carousel--exterior {
+    padding: 2vw;
+  }
+  .slick__carousel--interior {
+    padding: 3vw;
+  }
+  .slick__carousel--quotation {
+    width: 3vw;
+  }
+  .slick__carousel--quote {
+    font-size: 1.5vw;
+  }
+  .slick__carousel--portrait {
+    width: 18vw;
+  }
+  .slick__carousel--name {
+    font-size: 1.5vw;
+  }
+}
